@@ -1,0 +1,20 @@
+{
+  "name": "maks757/common-library",
+  "description": "Library",
+  "keywords": ["library"],
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "Cherednyk Maxim",
+      "email": "maks757q@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "maks757\\library\\": ""
+    }
+  }
+}
