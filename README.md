@@ -3,7 +3,7 @@
 composer require maks757/common-library
 ```
 
-### config
+### config frontend
 ```php
 'components' => [
         'library' => [
@@ -34,4 +34,14 @@ composer require maks757/common-library
         ],
         //...
 ]
+```
+
+### config backend
+```php
+'modules' => [
+        'lib' => [
+            'class' => \common\modules\library\LibraryModule::className()
+        ],
+        //...
+],
 ```
